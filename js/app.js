@@ -7,7 +7,7 @@ btn.addEventListener('click', () => {
     let hexColor = '#';
     for (let i = 0; i < 6; i++) {
         const digit = Math.floor(Math.random() * hexInt.length);
-    hexColor += hexInt[digit];
+        hexColor += hexInt[digit];
     }
     body.style.backgroundColor = hexColor;
     hexValue.textContent = hexColor;
